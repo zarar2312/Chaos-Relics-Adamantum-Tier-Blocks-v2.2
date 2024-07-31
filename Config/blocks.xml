@@ -1,0 +1,137 @@
+<configs>
+	<append xpath="/blocks">
+		<!-- Mythril Blok -->
+		<block name="mythrilShapes" shapes="All">
+			<property name="DescriptionKey" value="mythrilBlockGroupDesc" />
+			<property name="DisplayType" value="blockHardened" />
+			<property name="Material" value="Mmythril_shapes" />
+			<property name="Shape" value="New" />
+			<property name="Texture" value="428" />
+			<property name="UiBackgroundTexture" value="428" />
+			<property name="EconomicValue" value="190" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="10" />
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="232" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="stellarShapes" />
+				<property name="Item" value="resourceForgedSteel" />
+				<property name="ItemCount" value="30" />
+				<property name="UpgradeHitCount" value="9" />
+			</property>
+			<property name="UpgradeSound" value="place_block_metal" />
+			<property name="SortOrder1" value="S041" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="FilterTags" value="MC_Shapes" />
+		</block>
+		<!-- Stellar Blok -->
+		<block name="stellarShapes" shapes="All">
+			<property name="DescriptionKey" value="stellarBlockGroupDesc" />
+			<property name="DisplayType" value="blockHardened" />
+			<property name="Material" value="Mstellar_shapes" />
+			<property name="Shape" value="New" />
+			<property name="Texture" value="429" />
+			<property name="UiBackgroundTexture" value="429" />
+			<property name="EconomicValue" value="215" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="12" />
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="465" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="quantumShapes" />
+				<property name="Item" value="resourceForgedSteel" />
+				<property name="ItemCount" value="45" />
+				<property name="UpgradeHitCount" value="11" />
+			</property>
+			<property name="UpgradeSound" value="place_block_metal" />
+			<property name="SortOrder1" value="S042" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="FilterTags" value="MC_Shapes" />
+		</block>
+		<!-- Quantum Blok -->
+		<block name="quantumShapes" shapes="All">
+			<property name="DescriptionKey" value="quantumBlockGroupDesc" />
+			<property name="DisplayType" value="blockHardened" />
+			<property name="Material" value="Mquantum_shapes" />
+			<property name="Shape" value="New" />
+			<property name="Texture" value="435" />
+			<property name="UiBackgroundTexture" value="435" />
+			<property name="EconomicValue" value="360" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="18" />
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="697" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="cobaltShapes" />
+				<property name="Item" value="resourceForgedSteel" />
+				<property name="ItemCount" value="85" />
+				<property name="UpgradeHitCount" value="11" />
+			</property>
+			<property name="UpgradeSound" value="place_block_metal" />
+			<property name="SortOrder1" value="S043" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="FilterTags" value="MC_Shapes" />
+		</block>
+		<!-- Cobalt Blok -->
+		<block name="cobaltShapes" shapes="All">
+			<property name="DescriptionKey" value="cobaltBlockGroupDesc" />
+			<property name="DisplayType" value="blockHardened" />
+			<property name="Material" value="Mcobalt_shapes" />
+			<property name="Shape" value="New" />
+			<property name="Texture" value="46" />
+			<property name="UiBackgroundTexture" value="46" />
+			<property name="EconomicValue" value="410" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="22" />
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="878" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="adamantumShapes" />
+				<property name="Item" value="resourceForgedSteel" />
+				<property name="ItemCount" value="130" />
+				<property name="UpgradeHitCount" value="12" />
+			</property>
+			<property name="UpgradeSound" value="place_block_metal" />
+			<property name="SortOrder1" value="S044" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="FilterTags" value="MC_Shapes" />
+		</block>
+		<!-- Adamantum Blok -->
+		<block name="adamantumShapes" shapes="All">
+			<property name="DescriptionKey" value="adamantumBlockGroupDesc" />
+			<property name="DisplayType" value="blockHardened" />
+			<property name="Material" value="Madamantum_shapes" />
+			<property name="Shape" value="New" />
+			<property name="Texture" value="352" />
+			<property name="UiBackgroundTexture" value="352" />
+			<property name="EconomicValue" value="520" />
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="27" />
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="1007" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property name="UpgradeSound" value="place_block_metal" />
+			<property name="SortOrder1" value="S045" />
+			<property name="Group" value="Building,advBuilding" />
+			<property name="FilterTags" value="MC_Shapes" />
+		</block>
+	</append>
+	<!-- Ana yükseltme bloğu -->
+	<append xpath="/blocks/block[@name='steelShapes']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="mythrilShapes" />
+			<property name="Item" value="resourceForgedSteel" />
+			<property name="ItemCount" value="15" />
+			<property name="UpgradeHitCount" value="7" />
+		</property>
+	</append>
+</configs>

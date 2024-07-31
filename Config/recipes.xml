@@ -1,0 +1,20 @@
+<configs>
+	<!-- Üretim Kısmı -->
+	<append xpath="/recipes">
+		<recipe name="mythrilShapes:VariantHelper" count="1" craft_time="160">
+			<ingredient name="resourceForgedSteel" count="15" />
+		</recipe>
+		<recipe name="stellarShapes:VariantHelper" count="1" craft_time="160">
+			<ingredient name="resourceForgedSteel" count="30" />
+		</recipe>
+		<recipe name="quantumShapes:VariantHelper" count="1" craft_time="160">
+			<ingredient name="resourceForgedSteel" count="45" />
+		</recipe>
+		<recipe name="cobaltShapes:VariantHelper" count="1" craft_time="165">
+			<ingredient name="resourceForgedSteel" count="85" />
+		</recipe>
+		<recipe name="adamantumShapes:VariantHelper" count="1" craft_time="200">
+			<ingredient name="resourceForgedSteel" count="130" />
+		</recipe>
+	</append>
+</configs>

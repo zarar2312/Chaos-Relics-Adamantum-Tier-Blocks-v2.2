@@ -1,0 +1,18 @@
+Key,english,turkish
+mythrilBlockGroupDesc, Tier 1 Block, Tier 1 Blok
+stellarBlockGroupDesc, Tier 2 Block, Tier 2 Blok
+quantumBlockGroupDesc, Tier 3 Block, Tier 3 Blok
+cobaltBlockGroupDesc, Tier 4 Block, Tier 4 Blok
+adamantumBlockGroupDesc, Tier 5 Block, Tier 5 Blok
+
+mythrilShapes:VariantHelper, Mythril T-1 Block, Mythril T-1 Blok
+stellarShapes:VariantHelper, Stellar T-2 Block, Stellar T-2 Blok
+quantumShapes:VariantHelper, Quantum T-3 Block, Quantum T-3 Blok
+cobaltShapes:VariantHelper, Cobalt T-4 Block, Cobalt T-4 Blok
+adamantumShapes:VariantHelper, Adamantum T-5 Block, Adamantum T-5 Blok
+
+materialMmythril_shapes, Mythril T-1 Block, Mythril T-1 Blok
+materialMstellar_shapes, Stellar T-2 Block, Stellar T-2 Blok
+materialMquantum_shapes, Quantum T-3 Block, Quantum T-3 Blok
+materialMcobalt_shapes, Cobalt T-4 Block, Cobalt T-4 Blok
+materialMadamantum_shapes, Adamantum T-5 Block, Adamantum T-5 Blok

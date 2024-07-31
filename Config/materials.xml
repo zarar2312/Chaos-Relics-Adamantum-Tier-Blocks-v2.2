@@ -1,0 +1,65 @@
+<configs>
+	<!-- Blokların Özellikleri -->
+	<append xpath="/materials">
+		<material id="Mmythril_shapes">
+			<property name="damage_category" value="metal" />
+			<property name="surface_category" value="metal" />
+			<property name="forge_category" value="iron" />
+			<property name="Hardness" type="float" value="1" />
+			<property name="stepsound" value="metal" />
+			<property name="stability_glue" value="350" />
+			<property name="Mass" type="int" value="20" />
+			<property name="explosionresistance" value="0.75" />
+			<property name="MaxDamage" value="16000" />
+			<property name="Experience" value="8" />
+		</material>
+		<material id="Mstellar_shapes">
+			<property name="damage_category" value="metal" />
+			<property name="surface_category" value="metal" />
+			<property name="forge_category" value="iron" />
+			<property name="Hardness" type="float" value="1" />
+			<property name="stepsound" value="metal" />
+			<property name="stability_glue" value="450" />
+			<property name="Mass" type="int" value="20" />
+			<property name="explosionresistance" value="0.80" />
+			<property name="MaxDamage" value="24000" />
+			<property name="Experience" value="15" />
+		</material>
+		<material id="Mquantum_shapes">
+			<property name="damage_category" value="metal" />
+			<property name="surface_category" value="metal" />
+			<property name="forge_category" value="iron" />
+			<property name="Hardness" type="float" value="1" />
+			<property name="stepsound" value="metal" />
+			<property name="stability_glue" value="560" />
+			<property name="Mass" type="int" value="20" />
+			<property name="explosionresistance" value="0.90" />
+			<property name="MaxDamage" value="34000" />
+			<property name="Experience" value="20" />
+		</material>
+		<material id="Mcobalt_shapes">
+			<property name="damage_category" value="metal" />
+			<property name="surface_category" value="metal" />
+			<property name="forge_category" value="iron" />
+			<property name="Hardness" type="float" value="1" />
+			<property name="stepsound" value="metal" />
+			<property name="stability_glue" value="610" />
+			<property name="Mass" type="int" value="20" />
+			<property name="explosionresistance" value="1.0" />
+			<property name="MaxDamage" value="60000" />
+			<property name="Experience" value="25" />
+		</material>
+		<material id="Madamantum_shapes">
+			<property name="damage_category" value="metal" />
+			<property name="surface_category" value="metal" />
+			<property name="forge_category" value="iron" />
+			<property name="Hardness" type="float" value="1" />
+			<property name="stepsound" value="metal" />
+			<property name="stability_glue" value="660" />
+			<property name="Mass" type="int" value="20" />
+			<property name="explosionresistance" value="1.0" />
+			<property name="MaxDamage" value="90000" />
+			<property name="Experience" value="30" />
+		</material>
+	</append>
+</configs>
