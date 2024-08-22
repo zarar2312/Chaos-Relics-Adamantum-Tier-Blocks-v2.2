@@ -1,5 +1,5 @@
 # Chaos Relics Adamantum Tier Blocks v1.0
-
+Mod Sayfası: https://www.nexusmods.com/7daystodie/mods/5602
 Change Version 1.0-a
 
 - Added Burning Damage.
