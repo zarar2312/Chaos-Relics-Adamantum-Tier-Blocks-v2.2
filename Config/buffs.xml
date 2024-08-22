@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/buffs">
+		<!-- Mythril Tier 1 Blok Yanma Buff'ı -->
+		<buff name="mythrilTier1Buff" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<duration value="0" />
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="LTE" value="1" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+			</effect_group>
+			<!-- Süre Bitiminde Buff'ı Kaldır -->
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0.4" tags="mythrilTier1Buff" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="add" value="-1" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="mythrilTier1Buff">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="0" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- Hasar Miktarı Tier'e Göre Artacak -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1.5" />
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="0" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Stellar Tier 2 Blok Yanma Buff'ı -->
+		<buff name="stellarTier2Buff" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<duration value="0" />
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="LTE" value="1" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+			</effect_group>
+			<!-- Süre Bitiminde Buff'ı Kaldır -->
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0.4" tags="stellarTier2Buff" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="add" value="-1" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="stellarTier2Buff">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="0" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- Hasar Miktarı Tier'e Göre Artacak -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="3" />
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="0" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Quantum Tier 3 Blok Yanma Buff'ı -->
+		<buff name="quantumTier3Buff" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<duration value="0" />
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="LTE" value="1" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+			</effect_group>
+			<!-- Süre Bitiminde Buff'ı Kaldır -->
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0.4" tags="quantumTier3Buff" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="add" value="-1" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="quantumTier3Buff">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="0" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- Hasar Miktarı Tier'e Göre Artacak -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="6" />
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="0" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Cobalt Tier 4 Blok Yanma Buff'ı -->
+		<buff name="cobaltTier4Buff" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<duration value="0" />
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="LTE" value="1" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+			</effect_group>
+			<!-- Süre Bitiminde Buff'ı Kaldır -->
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0.4" tags="cobaltTier4Buff" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="add" value="-1" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="cobaltTier4Buff">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="0" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- Hasar Miktarı Tier'e Göre Artacak -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="9" />
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="0" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+		<!-- Adamantum Tier 5 Blok Yanma Buff'ı -->
+		<buff name="adamantumTier5Buff" hidden="true">
+			<damage_type value="heat" />
+			<stack_type value="replace" />
+			<duration value="0" />
+			<effect_group>
+				<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="LTE" value="1" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="1" />
+			</effect_group>
+			<!-- Süre Bitiminde Buff'ı Kaldır -->
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0.4" tags="adamantumTier5Buff" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="add" value="-1" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="adamantumTier5Buff">
+					<requirement name="CVarCompare" cvar="$buffBurningMolotovDuration" operation="LTE" value="0" />
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningElementDuration" operation="set" value="0" />
+			</effect_group>
+			<!-- Yanma etkileri -->
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire" />
+				<!-- Hasar Miktarı Tier'e Göre Artacak -->
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="13.5" />
+				<passive_effect name="WaterChangeOT" operation="base_subtract" value="0" />
+				<passive_effect name="HypothermalResist" operation="base_add" value="35" />
+				<passive_effect name="HyperthermalResist" operation="base_add" value="-15" />
+			</effect_group>
+		</buff>
+	</append>
+</configs>
