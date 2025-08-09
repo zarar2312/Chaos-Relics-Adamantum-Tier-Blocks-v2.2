@@ -17,9 +17,27 @@
 ## Change Version 2.2
 
 - Updated for 7 Days to Die v2.2 compatibility
+- Added multi-language support (13 languages)
 - Removed burning damage effects for better performance
 - Optimized block properties for latest game version
 - Improved stability and compatibility
+
+## Language Support
+
+This mod now supports 13 different languages:
+- **English** 🇺🇸
+- **German** 🇩🇪 
+- **Spanish** 🇪🇸
+- **French** 🇫🇷
+- **Italian** 🇮🇹
+- **Japanese** 🇯🇵
+- **Korean** 🇰🇷
+- **Polish** 🇵🇱
+- **Portuguese (Brazilian)** 🇧🇷
+- **Russian** 🇷🇺
+- **Turkish** 🇹🇷
+- **Chinese (Simplified)** 🇨🇳
+- **Chinese (Traditional)** 🇹🇼
 
 ## Previous Changes (Version 1.0-a)
 
