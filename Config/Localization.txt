@@ -1,18 +1,18 @@
-Key,english,turkish
-mythrilBlockGroupDesc, Tier 1 Block\n\n[00FF00]Fire Damage: 1.5, Tier 1 Blok\n\n[00FF00]Yanma Hasarı: 1.5
-stellarBlockGroupDesc, Tier 2 Block\n\n[00FF00]Fire Damage: 3, Tier 2 Blok\n\n[00FF00]Yanma Hasarı: 3
-quantumBlockGroupDesc, Tier 3 Block\n\n[00FF00]Fire Damage: 6, Tier 3 Blok\n\n[00FF00]Yanma Hasarı: 6
-cobaltBlockGroupDesc, Tier 4 Block\n\n[00FF00]Fire Damage: 9, Tier 4 Blok\n\n[00FF00]Yanma Hasarı: 9
-adamantumBlockGroupDesc, Tier 5 Block\n\n[00FF00]Fire Damage: 13.5, Tier 5 Blok\n\n[00FF00]Yanma Hasarı: 13.5
+Key,english,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+mythrilBlockGroupDesc,Tier 1 Block,Tier 1 Block,Bloque Tier 1,Bloc Tier 1,Blocco Tier 1,ティア1ブロック,티어 1 블록,Blok Tier 1,Bloco Tier 1,Блок Уровня 1,Tier 1 Blok,1级方块,1級方塊
+stellarBlockGroupDesc,Tier 2 Block,Tier 2 Block,Bloque Tier 2,Bloc Tier 2,Blocco Tier 2,ティア2ブロック,티어 2 블록,Blok Tier 2,Bloco Tier 2,Блок Уровня 2,Tier 2 Blok,2级方块,2級方塊
+quantumBlockGroupDesc,Tier 3 Block,Tier 3 Block,Bloque Tier 3,Bloc Tier 3,Blocco Tier 3,ティア3ブロック,티어 3 블록,Blok Tier 3,Bloco Tier 3,Блок Уровня 3,Tier 3 Blok,3级方块,3級方塊
+cobaltBlockGroupDesc,Tier 4 Block,Tier 4 Block,Bloque Tier 4,Bloc Tier 4,Blocco Tier 4,ティア4ブロック,티어 4 블록,Blok Tier 4,Bloco Tier 4,Блок Уровня 4,Tier 4 Blok,4级方块,4級方塊
+adamantumBlockGroupDesc,Tier 5 Block,Tier 5 Block,Bloque Tier 5,Bloc Tier 5,Blocco Tier 5,ティア5ブロック,티어 5 블록,Blok Tier 5,Bloco Tier 5,Блок Уровня 5,Tier 5 Blok,5级方块,5級方塊
 
-mythrilShapes:VariantHelper, Mythril T-1 Block, Mythril T-1 Blok
-stellarShapes:VariantHelper, Stellar T-2 Block, Stellar T-2 Blok
-quantumShapes:VariantHelper, Quantum T-3 Block, Quantum T-3 Blok
-cobaltShapes:VariantHelper, Cobalt T-4 Block, Cobalt T-4 Blok
-adamantumShapes:VariantHelper, Adamantum T-5 Block, Adamantum T-5 Blok
+mythrilShapes:VariantHelper,Mythril T-1 Block,Mythril T-1 Block,Bloque Mythril T-1,Bloc Mythril T-1,Blocco Mythril T-1,ミスリルT-1ブロック,미스릴 T-1 블록,Blok Mythril T-1,Bloco Mythril T-1,Блок Мифрил T-1,Mythril T-1 Blok,秘银T-1方块,秘銀T-1方塊
+stellarShapes:VariantHelper,Stellar T-2 Block,Stellar T-2 Block,Bloque Stellar T-2,Bloc Stellar T-2,Blocco Stellar T-2,ステラT-2ブロック,스텔라 T-2 블록,Blok Stellar T-2,Bloco Stellar T-2,Блок Стеллар T-2,Stellar T-2 Blok,星际T-2方块,星際T-2方塊
+quantumShapes:VariantHelper,Quantum T-3 Block,Quantum T-3 Block,Bloque Quantum T-3,Bloc Quantum T-3,Blocco Quantum T-3,クォンタムT-3ブロック,퀀텀 T-3 블록,Blok Quantum T-3,Bloco Quantum T-3,Блок Квантум T-3,Quantum T-3 Blok,量子T-3方块,量子T-3方塊
+cobaltShapes:VariantHelper,Cobalt T-4 Block,Cobalt T-4 Block,Bloque Cobalt T-4,Bloc Cobalt T-4,Blocco Cobalt T-4,コバルトT-4ブロック,코발트 T-4 블록,Blok Cobalt T-4,Bloco Cobalt T-4,Блок Кобальт T-4,Cobalt T-4 Blok,钴T-4方块,鈷T-4方塊
+adamantumShapes:VariantHelper,Adamantum T-5 Block,Adamantum T-5 Block,Bloque Adamantum T-5,Bloc Adamantum T-5,Blocco Adamantum T-5,アダマンタムT-5ブロック,아다만탐 T-5 블록,Blok Adamantum T-5,Bloco Adamantum T-5,Блок Адамантум T-5,Adamantum T-5 Blok,精金T-5方块,精金T-5方塊
 
-materialMmythril_shapes, Mythril T-1 Block, Mythril T-1 Blok
-materialMstellar_shapes, Stellar T-2 Block, Stellar T-2 Blok
-materialMquantum_shapes, Quantum T-3 Block, Quantum T-3 Blok
-materialMcobalt_shapes, Cobalt T-4 Block, Cobalt T-4 Blok
-materialMadamantum_shapes, Adamantum T-5 Block, Adamantum T-5 Blok
+materialMmythril_shapes,Mythril T-1 Block,Mythril T-1 Block,Bloque Mythril T-1,Bloc Mythril T-1,Blocco Mythril T-1,ミスリルT-1ブロック,미스릴 T-1 블록,Blok Mythril T-1,Bloco Mythril T-1,Блок Мифрил T-1,Mythril T-1 Blok,秘银T-1方块,秘銀T-1方塊
+materialMstellar_shapes,Stellar T-2 Block,Stellar T-2 Block,Bloque Stellar T-2,Bloc Stellar T-2,Blocco Stellar T-2,ステラT-2ブロック,스텔라 T-2 블록,Blok Stellar T-2,Bloco Stellar T-2,Блок Стеллар T-2,Stellar T-2 Blok,星际T-2方块,星際T-2方塊
+materialMquantum_shapes,Quantum T-3 Block,Quantum T-3 Block,Bloque Quantum T-3,Bloc Quantum T-3,Blocco Quantum T-3,クォンタムT-3ブロック,퀀텀 T-3 블록,Blok Quantum T-3,Bloco Quantum T-3,Блок Квантум T-3,Quantum T-3 Blok,量子T-3方块,量子T-3方塊
+materialMcobalt_shapes,Cobalt T-4 Block,Cobalt T-4 Block,Bloque Cobalt T-4,Bloc Cobalt T-4,Blocco Cobalt T-4,コバルトT-4ブロック,코발트 T-4 블록,Blok Cobalt T-4,Bloco Cobalt T-4,Блок Кобальт T-4,Cobalt T-4 Blok,钴T-4方块,鈷T-4方塊
+materialMadamantum_shapes,Adamantum T-5 Block,Adamantum T-5 Block,Bloque Adamantum T-5,Bloc Adamantum T-5,Blocco Adamantum T-5,アダマンタムT-5ブロック,아다만탐 T-5 블록,Blok Adamantum T-5,Bloco Adamantum T-5,Блок Адамантум T-5,Adamantum T-5 Blok,精金T-5方块,精金T-5方塊

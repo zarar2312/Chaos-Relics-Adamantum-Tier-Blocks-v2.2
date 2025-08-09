@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <configs>
 	<append xpath="/blocks">
 		<!-- Mythril Blok -->
 		<block name="mythrilShapes" shapes="All">
 			<property name="DescriptionKey" value="mythrilBlockGroupDesc" />
-			<property name="StabilitySupport" value="true" />
-			<property name="IsTerrainDecoration" value="false" />
-			<property name="PassThroughDamage" value="false" />
-			<property name="CanMobsSpawnOn" value="false" />
-			<!-- Yanma Güçlendirmesi Kısmı -->
-			<property name="WaterFlow" value="permitted" />
-			<property name="BuffsWhenWalkedOn" value="mythrilTier1Buff" />
-			<property name="ParticleName" value="flame_hazard" />
-			<property name="ParticleOffset" value="-1.5,0,0.5" />
 			<property name="DisplayType" value="blockHardened" />
 			<property name="Material" value="Mmythril_shapes" />
 			<property name="Shape" value="New" />
 			<property name="Texture" value="428" />
 			<property name="UiBackgroundTexture" value="428" />
 			<property name="EconomicValue" value="190" />
-			<property name="EconomicBundleSize" value="200" />
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="10" />
 			</property>
@@ -40,22 +29,12 @@
 		<!-- Stellar Blok -->
 		<block name="stellarShapes" shapes="All">
 			<property name="DescriptionKey" value="stellarBlockGroupDesc" />
-			<property name="StabilitySupport" value="true" />
-			<property name="IsTerrainDecoration" value="false" />
-			<property name="PassThroughDamage" value="false" />
-			<property name="CanMobsSpawnOn" value="false" />
-			<!-- Yanma Güçlendirmesi Kısmı -->
-			<property name="WaterFlow" value="permitted" />
-			<property name="BuffsWhenWalkedOn" value="stellarTier2Buff" />
-			<property name="ParticleName" value="flame_hazard" />
-			<property name="ParticleOffset" value="-1.5,0,0.5" />
 			<property name="DisplayType" value="blockHardened" />
 			<property name="Material" value="Mstellar_shapes" />
 			<property name="Shape" value="New" />
 			<property name="Texture" value="429" />
 			<property name="UiBackgroundTexture" value="429" />
 			<property name="EconomicValue" value="215" />
-			<property name="EconomicBundleSize" value="230" />
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="12" />
 			</property>
@@ -76,22 +55,12 @@
 		<!-- Quantum Blok -->
 		<block name="quantumShapes" shapes="All">
 			<property name="DescriptionKey" value="quantumBlockGroupDesc" />
-			<property name="StabilitySupport" value="true" />
-			<property name="IsTerrainDecoration" value="false" />
-			<property name="PassThroughDamage" value="false" />
-			<property name="CanMobsSpawnOn" value="false" />
-			<!-- Yanma Güçlendirmesi Kısmı -->
-			<property name="WaterFlow" value="permitted" />
-			<property name="BuffsWhenWalkedOn" value="quantumTier3Buff" />
-			<property name="ParticleName" value="flame_hazard" />
-			<property name="ParticleOffset" value="-1.5,0,0.5" />
 			<property name="DisplayType" value="blockHardened" />
 			<property name="Material" value="Mquantum_shapes" />
 			<property name="Shape" value="New" />
 			<property name="Texture" value="435" />
 			<property name="UiBackgroundTexture" value="435" />
 			<property name="EconomicValue" value="360" />
-			<property name="EconomicBundleSize" value="370" />
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="18" />
 			</property>
@@ -112,22 +81,12 @@
 		<!-- Cobalt Blok -->
 		<block name="cobaltShapes" shapes="All">
 			<property name="DescriptionKey" value="cobaltBlockGroupDesc" />
-			<property name="StabilitySupport" value="true" />
-			<property name="IsTerrainDecoration" value="false" />
-			<property name="PassThroughDamage" value="false" />
-			<property name="CanMobsSpawnOn" value="false" />
-			<!-- Yanma Güçlendirmesi Kısmı -->
-			<property name="WaterFlow" value="permitted" />
-			<property name="BuffsWhenWalkedOn" value="cobaltTier4Buff" />
-			<property name="ParticleName" value="flame_hazard" />
-			<property name="ParticleOffset" value="-1.5,0,0.5" />
 			<property name="DisplayType" value="blockHardened" />
 			<property name="Material" value="Mcobalt_shapes" />
 			<property name="Shape" value="New" />
 			<property name="Texture" value="46" />
 			<property name="UiBackgroundTexture" value="46" />
 			<property name="EconomicValue" value="410" />
-			<property name="EconomicBundleSize" value="420" />
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="22" />
 			</property>
@@ -148,22 +107,12 @@
 		<!-- Adamantum Blok -->
 		<block name="adamantumShapes" shapes="All">
 			<property name="DescriptionKey" value="adamantumBlockGroupDesc" />
-			<property name="StabilitySupport" value="true" />
-			<property name="IsTerrainDecoration" value="false" />
-			<property name="PassThroughDamage" value="false" />
-			<property name="CanMobsSpawnOn" value="false" />
-			<!-- Yanma Güçlendirmesi Kısmı -->
-			<property name="WaterFlow" value="permitted" />
-			<property name="BuffsWhenWalkedOn" value="adamantumTier5Buff" />
-			<property name="ParticleName" value="flame_hazard" />
-			<property name="ParticleOffset" value="-1.5,0,0.5" />
 			<property name="DisplayType" value="blockHardened" />
 			<property name="Material" value="Madamantum_shapes" />
 			<property name="Shape" value="New" />
 			<property name="Texture" value="352" />
 			<property name="UiBackgroundTexture" value="352" />
 			<property name="EconomicValue" value="520" />
-			<property name="EconomicBundleSize" value="530" />
 			<property class="RepairItems">
 				<property name="resourceForgedSteel" value="27" />
 			</property>
